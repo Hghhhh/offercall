@@ -8,11 +8,11 @@
         <version>2.1.6.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.crawler</groupId>
+    <groupId>com.hghhhh</groupId>
     <artifactId>offercall</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>offercall</name>
-    <description>a crawler, craw newcode</description>
+    <description>一个爬虫，爬取牛客网的帖子，用户可以设置关键字，接收有关的帖子</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -34,6 +34,8 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <!--一个爬虫框架，本项目将以它为基础开发-->
         <dependency>
             <groupId>cn.wanghaomiao</groupId>
             <artifactId>SeimiCrawler</artifactId>

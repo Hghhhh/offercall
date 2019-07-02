@@ -1,0 +1,8 @@
+seimi:
+  crawler:
+    enabled: true
+    names: DefRedis,test
+  enable-redisson-queue: true
+spring:
+  main:
+    allow-bean-definition-overriding: true
